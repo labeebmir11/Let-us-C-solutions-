@@ -12,8 +12,11 @@ int main()
     double sin_x = sin(x_rad);
     double cos_x = cos(x_rad);
     double tan_x = tan(x_rad);
+    double cosec_x = 1/ sin_x;
+    double sec_x  = 1/ cos_x;
+    double cot_x = 1/ tan_x;
 
-    printf("sin x = %.2lf\tcos x = %.2lf\ttan x = %.2lf\n", sin_x, cos_x, tan_x);
+    printf("sin x = %.2lf\tcos x = %.2lf\ttan x = %.2lf\ncosec x = %.2lf\tsec x = %.2lf\tcot x = %.2lf\t", sin_x, cos_x, tan_x, cosec_x, sec_x, cot_x);
 
     return 0;
 
